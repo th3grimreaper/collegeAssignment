@@ -1,6 +1,5 @@
 #include <iostream>
 #include "info.h"
-using namespace std;
 
 struct Date {
   int day, month, year;

@@ -1,7 +1,6 @@
 #include <iostream>
 #include "info.h"
 #define PI 3.14
-using namespace std;
 
 inline float areaOfCircle(float radius) {
   return PI*radius*radius;

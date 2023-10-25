@@ -1,6 +1,5 @@
 #include <iostream>
 #include "info.h"
-using namespace std;
 
 void callByRef(int* x, int* y) {
   int temp;

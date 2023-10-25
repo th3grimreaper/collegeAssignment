@@ -1,6 +1,5 @@
 #include <iostream>
 #include "info.h"
-using namespace std;
 
 int simpleInterest(int P = 10000, int R = 5, int T = 2) {
   return (P*R*T)/100;

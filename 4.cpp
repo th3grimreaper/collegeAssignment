@@ -1,6 +1,5 @@
 #include <iostream>
 #include "info.h"
-using namespace std;
 
 int main() {
   info();

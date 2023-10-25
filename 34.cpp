@@ -1,6 +1,5 @@
 #include <iostream>
 #include "info.h"
-using namespace std;
 
 template <class T, class S>
 void sumIntFloat(T i1, T i2, S f1, S f2) {

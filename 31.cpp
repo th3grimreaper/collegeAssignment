@@ -1,6 +1,5 @@
 #include <iostream>
 #include "info.h"
-using namespace std;
 
 void callByVal(int x, int y) {
   int temp;

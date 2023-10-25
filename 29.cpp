@@ -1,6 +1,5 @@
 #include <iostream>
 #include "info.h"
-using namespace std;
 
 void swapWithoutThird(int &a, int &b) {
   a = a + b;
