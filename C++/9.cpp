@@ -28,7 +28,7 @@ int main() {
               << std::endl;
     break;
   case '%':
-    std::cout << "Reminder of " << a << " and " << b << " gives " << a % b
+    std::cout << "Reminder of " << a << " and " << b << " is " << a % b
               << std::endl;
     break;
   default:
