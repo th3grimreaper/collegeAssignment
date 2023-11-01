@@ -5,6 +5,8 @@
 int main() {
   info();
   int a, b;
+  std::cout << "Program to demonstrate the working of Relational Operators"
+            << std::endl;
   std::cout << "enter a and b: " << std::endl;
   std::cin >> a >> b;
   std::cout << "Relational Operators: "

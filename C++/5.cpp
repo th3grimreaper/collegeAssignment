@@ -5,7 +5,7 @@
 int main() {
   info();
   int a, b;
-  std::cout << "program to demonstrate the working of bitwise operators: "
+  std::cout << "Program to demonstrate the working of Bitwise Operators: "
             << std::endl;
   std::cout << "enter two numbers a and b:" << std::endl;
   std::cin >> a >> b;
