@@ -3,9 +3,9 @@
 #include "info.h"
 
 void printHollowSquare(int len, int breadth) {
-  for (int i = 0; i < len; i++) {
-    for (int j = 0; j < breadth; j++) {
-      if ((i == 0 || i == len - 1) || (j == 0 || j == breadth - 1)) {
+  for (int i = 0; i < breadth; i++) {
+    for (int j = 0; j < len; j++) {
+      if ((i == 0 || i == breadth - 1) || (j == 0 || j == len - 1)) {
         std::cout << "*";
       } else {
         std::cout << " ";
