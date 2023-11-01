@@ -5,7 +5,8 @@
 
 struct Student {
   std::string fname;
-  int roll, marks;
+  int roll;
+  float marks;
 };
 
 void getandshowData() {
