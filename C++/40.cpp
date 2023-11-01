@@ -13,7 +13,8 @@ int main() {
 
   std::cout << "values of the array printed in reverse order:" << std::endl;
   for (int i = size - 1; i >= 0; i--) {
-    std::cout << arr[i] << std::endl;
+    std::cout << arr[i] << " ";
   }
+  std::cout << std::endl;
   return 0;
 }
