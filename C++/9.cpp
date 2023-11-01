@@ -12,23 +12,23 @@ int main() {
   std::cin >> a >> b;
   switch (op) {
   case '+':
-    std::cout << "addition of " << a << " and " << b << " is " << a + b
+    std::cout << "Addition of " << a << " and " << b << " gives " << a + b
               << std::endl;
     break;
   case '-':
-    std::cout << "Substracion of " << a << " and " << b << " is " << a - b
+    std::cout << "Subtraction of " << a << " and " << b << " gives " << a - b
               << std::endl;
     break;
   case '*':
-    std::cout << "multipication of " << a << " and " << b << " is " << a * b
+    std::cout << "Multiplication of " << a << " and " << b << " gives " << a * b
               << std::endl;
     break;
   case '/':
-    std::cout << "divition of " << a << " and " << b << " is " << a / b
+    std::cout << "Division of " << a << " and " << b << " gives " << a / b
               << std::endl;
     break;
   case '%':
-    std::cout << "Reminder of " << a << " and " << b << " is " << a % b
+    std::cout << "Reminder of " << a << " and " << b << " gives " << a % b
               << std::endl;
     break;
   default:
