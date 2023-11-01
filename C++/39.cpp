@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "info.h"
 
 int main() {
@@ -11,9 +12,10 @@ int main() {
   }
 
   for (int i = 0; i < 7; i++) {
-     average += arr[i];
+    average += arr[i];
   }
-  std::cout << "average of the 7 values stored inside the array is:" << average/7 << std::endl;
-  
+  std::cout << "average of the 7 values stored inside the array is:"
+            << average / 7 << std::endl;
+
   return 0;
 }

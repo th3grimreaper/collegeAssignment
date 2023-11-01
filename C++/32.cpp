@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "info.h"
 
 void callByAddr(int &x, int &y) {
@@ -14,7 +15,7 @@ int main() {
   std::cout << "enter a and b: " << std::endl;
   std::cin >> a >> b;
   std::cout << "before swap: a = " << a << ", b = " << b << std::endl;
-  callByAddr(a,b);
+  callByAddr(a, b);
   std::cout << "after swap: a = " << a << ", b = " << b << std::endl;
   return 0;
 }

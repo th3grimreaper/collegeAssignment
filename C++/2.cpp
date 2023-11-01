@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "info.h"
 
 int main() {
@@ -7,10 +8,10 @@ int main() {
   std::cout << "enter a and b: " << std::endl;
   std::cin >> a >> b;
   std::cout << "Arithmetic Operators: " << std::endl;
-  std::cout << a << " + " << b << " gives : " << a+b << std::endl;
-  std::cout << a << " - " << b << " gives : " << a-b << std::endl;
-  std::cout << a << " * " << b << " gives : " << a*b << std::endl;
-  std::cout << a << " / " << b << " gives : " << a/b << std::endl;
-  std::cout << a << " % " << b << " gives : " << a%b << std::endl;
+  std::cout << a << " + " << b << " gives : " << a + b << std::endl;
+  std::cout << a << " - " << b << " gives : " << a - b << std::endl;
+  std::cout << a << " * " << b << " gives : " << a * b << std::endl;
+  std::cout << a << " / " << b << " gives : " << a / b << std::endl;
+  std::cout << a << " % " << b << " gives : " << a % b << std::endl;
   return 0;
 }

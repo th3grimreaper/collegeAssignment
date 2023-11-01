@@ -1,7 +1,8 @@
 #include <iostream>
+
 #include "info.h"
 
-void callByRef(int* x, int* y) {
+void callByRef(int *x, int *y) {
   int temp;
   temp = *x;
   *x = *y;
@@ -14,7 +15,7 @@ int main() {
   std::cout << "enter a and b: " << std::endl;
   std::cin >> a >> b;
   std::cout << "before swap: a = " << a << ", b = " << b << std::endl;
-  callByRef(&a,&b);
+  callByRef(&a, &b);
   std::cout << "after swap: a = " << a << ", b = " << b << std::endl;
   return 0;
 }
