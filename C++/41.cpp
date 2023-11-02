@@ -4,7 +4,7 @@
 
 class Student {
   int rollno;
-  int marks[SIZE];
+  float marks[SIZE];
 
 public:
   void getdata();
