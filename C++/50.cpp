@@ -1,6 +1,4 @@
-#include <algorithm>
 #include <iostream>
-#include <ostream>
 
 #include "info.h"
 
