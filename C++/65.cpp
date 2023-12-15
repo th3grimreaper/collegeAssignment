@@ -3,6 +3,7 @@
 
 #include "info.h"
 
+// add two complex numbers using friend function
 class Complex {
   int real;
   int img;

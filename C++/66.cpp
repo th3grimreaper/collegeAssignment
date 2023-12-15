@@ -4,6 +4,7 @@
 
 #include "info.h"
 
+// implement unary minus operator using friend function
 class Complex {
   int x;
 
