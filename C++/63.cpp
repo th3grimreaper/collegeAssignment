@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ostream>
 
 #include "info.h"
 
@@ -13,7 +14,10 @@ public:
 
 int main() {
   info();
-  OverloadEqual obj1(4), obj2(4);
+  int x, y;
+  std::cout << "enter two values for x and y respectively: ";
+  std::cin >> x >> y;
+  OverloadEqual obj1(x), obj2(y);
   std::cout << "is equal? " << ((obj1 == obj2) ? "true" : "false") << std::endl;
   return 0;
 }
